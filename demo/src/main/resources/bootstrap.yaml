@@ -4,5 +4,5 @@ spring:
       config:
         enabled: true
         sources:
-          - namespace: local
-            name: default
+          - namespace: default
+            name: local
