@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class DemoController {
-    @Value("${message1}")
+    @Value("${message1:message1}")
     private String message1;
 
-    @Value("${message2}")
+    @Value("${message2:message2}")
     private String message2;
 
     @GetMapping("/")
